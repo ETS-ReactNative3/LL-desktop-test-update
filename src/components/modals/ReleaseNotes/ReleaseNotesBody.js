@@ -49,7 +49,7 @@ class ReleaseNotesBody extends PureComponent<Props, State> {
     try {
       const { data } = await network({
         method: 'GET',
-        url: 'https://api.github.com/repos/LedgerHQ/ledger-live-desktop/releases',
+        url: 'https://api.github.com/repos/meriadec/LL-desktop-test-update/releases',
         // `https://api.github.com/repos/LedgerHQ/ledger-live-desktop/releases/tags/v${version}`,
       })
       const v = semver.parse(version)

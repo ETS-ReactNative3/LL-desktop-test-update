@@ -7,8 +7,8 @@ const exec = util.promisify(require('child_process').exec)
 const octokit = require('@octokit/rest')()
 
 const repo = {
-  owner: 'LedgerHQ',
-  repo: 'ledger-live-desktop',
+  owner: 'meriadec',
+  repo: 'LL-desktop-test-update',
 }
 
 async function getTag() {

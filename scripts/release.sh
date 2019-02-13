@@ -105,15 +105,15 @@ if [[ $(uname) == 'Linux' ]]; then
 
   scripts/upload-github-release-asset.sh \
     github_api_token="$GH_TOKEN" \
-    owner=LedgerHQ \
-    repo=ledger-live-desktop \
+    owner=meriadec \
+    repo=LL-desktop-test-update \
     tag="$GH_TAG" \
     filename="dist/ledger-live-desktop-$LEDGER_LIVE_VERSION-linux-x86_64.AppImage"
 
   scripts/upload-github-release-asset.sh \
     github_api_token="$GH_TOKEN" \
-    owner=LedgerHQ \
-    repo=ledger-live-desktop \
+    owner=meriadec \
+    repo=LL-desktop-test-update \
     tag="$GH_TAG" \
     filename="dist/latest-linux.yml"
 
