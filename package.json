@@ -3,7 +3,7 @@
   "productName": "Ledger Live",
   "description": "Ledger Live - Desktop",
   "repository": "https://github.com/meriadec/LL-desktop-test-update",
-  "version": "1.4.1",
+  "version": "2.0.0",
   "author": "Ledger",
   "license": "MIT",
   "scripts": {
